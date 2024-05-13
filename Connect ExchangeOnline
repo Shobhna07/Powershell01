@@ -1,0 +1,20 @@
+Connect to Office 365 with PowerShell (Step by Step Guide) - ShellGeek 
+ 
+Install-Module -Name ExchangeOnlineManagement -Scope CurrentUser 
+Install-Module ExchangeOnlineManagement -Force 
+ 
+Find-Module ExchangeOnlineManagement -AllVersions –AllowPrerelease 
+Import-Module ExchangeOnlineManagement; Get-Module ExchangeOnlineManagement 
+ 
+Connect-ExchangeOnline -UserPrincipalName shona@contoso.com 
+
+
+Install-Module -Name PowerShellGet -Force –AllowClobber 
+
+ 
+Install the Teams PowerShell Module 
+
+Install-Module -Name MicrosoftTeams -Force –AllowClobber 
+Connect-MicrosoftTeams 
+
+ 
